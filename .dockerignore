@@ -1,0 +1,30 @@
+# Frontend build artifacts
+frontend/build
+frontend/dist
+frontend/.next
+frontend/out
+frontend/.cache
+frontend/public/bundle.*
+frontend/node_modules/bundle.*
+frontend/package-lock.json
+
+# Backend artifacts
+backend/*.egg-info
+backend/build
+backend/dist
+backend/.eggs
+backend/.tox
+backend/.coverage
+backend/.coverage.*
+backend/.cache
+backend/.pytest_cache
+backend/.mypy_cache
+backend/.ruff_cache
+backend/.venv
+
+# Docker
+Dockerfile
+Dockerfile.dev
+docker-compose.yml
+docker-compose.dev.yml
+docker-compose.override.yml

@@ -1,4 +1,7 @@
-/database.sqlite
+/backend/database.sqlite
 /.venv/
-/.env
+**/.env
 .idea/
+**/.idea
+
+/frontend/node_modules/
